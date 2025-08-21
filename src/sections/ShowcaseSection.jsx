@@ -134,7 +134,7 @@ const AppShowcase = () => {
 
             <div className="project-card" ref={project2Ref}>
               <div
-                className="project-image-wrapper bg-[#FFEFDB] group perspective-1000"
+                className="project-image-wrapper group perspective-1000"
                 onClick={() => handleCardClick(1)}
               >
                 <div className={`relative w-full h-full transition-transform duration-700 transform-style-preserve-3d ${isMobile ? (flippedCards[1] ? 'rotate-y-180' : '') : 'group-hover:rotate-y-180'}`}>
@@ -190,7 +190,7 @@ const AppShowcase = () => {
 
             <div className="project-card" ref={project3Ref}>
               <div
-                className="project-image-wrapper bg-[#FFEFDB] group perspective-1000"
+                className="project-image-wrapper group perspective-1000"
                 onClick={() => handleCardClick(2)}
               >
                 <div className={`relative w-full h-full transition-transform duration-700 transform-style-preserve-3d ${isMobile ? (flippedCards[2] ? 'rotate-y-180' : '') : 'group-hover:rotate-y-180'}`}>
@@ -248,7 +248,7 @@ const AppShowcase = () => {
 
             <div className="project-card" ref={project4Ref}>
               <div
-                className="project-image-wrapper bg-[#FFE7EB] group perspective-1000"
+                className="project-image-wrapper group perspective-1000"
                 onClick={() => handleCardClick(3)}
               >
                 <div className={`relative w-full h-full transition-transform duration-700 transform-style-preserve-3d ${isMobile ? (flippedCards[3] ? 'rotate-y-180' : '') : 'group-hover:rotate-y-180'}`}>
