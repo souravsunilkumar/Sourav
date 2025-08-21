@@ -67,7 +67,7 @@ const techStackImgs = [
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Team Work",
+    name: "Version Control",
     imgPath: "/images/logos/git.svg",
   },
 ];
@@ -98,7 +98,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Team Work",
+    name: "Version Control",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -185,19 +185,15 @@ const expLogos = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-    url: "https://www.instagram.com/",
+    name: "github",
+    imgPath: "/images/github.png",
+    url: "https://github.com/souravsunilkumar",
   },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-    url: "https://twitter.com/",
-  },
+
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/sourav-sunilkumar/",
   },
 ];
 
